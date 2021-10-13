@@ -16,6 +16,7 @@ public class Main {
         ) {
             System.out.println("Account " + a + " is valid " + accountExample.validate(a));
         }
+        System.out.println(accountExample.validate("_fhgie"));
 
     }
 }
